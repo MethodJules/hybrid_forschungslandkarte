@@ -1,0 +1,22 @@
+uuid: 46e981ba-9338-415f-ba0f-6222af8b56ea
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.forschungspartner
+  module:
+    - text
+id: node.forschungspartner.body
+field_name: body
+entity_type: node
+bundle: forschungspartner
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

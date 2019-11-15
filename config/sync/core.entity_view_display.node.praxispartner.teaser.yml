@@ -1,0 +1,31 @@
+uuid: 17d49e21-23dd-4c95-9f13-3a33a49548dc
+langcode: de
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.praxispartner.body
+    - node.type.praxispartner
+  module:
+    - text
+    - user
+id: node.praxispartner.teaser
+targetEntityType: node
+bundle: praxispartner
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

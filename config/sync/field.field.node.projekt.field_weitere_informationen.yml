@@ -1,0 +1,21 @@
+uuid: 58784791-e048-4cfd-96b5-4f1a3a17ed35
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weitere_informationen
+    - node.type.projekt
+  module:
+    - text
+id: node.projekt.field_weitere_informationen
+field_name: field_weitere_informationen
+entity_type: node
+bundle: projekt
+label: 'Weitere Informationen'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

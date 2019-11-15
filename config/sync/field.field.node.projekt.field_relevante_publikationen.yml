@@ -1,0 +1,21 @@
+uuid: 689994e3-814c-4a01-b448-b91a0fc7a299
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_relevante_publikationen
+    - node.type.projekt
+  module:
+    - text
+id: node.projekt.field_relevante_publikationen
+field_name: field_relevante_publikationen
+entity_type: node
+bundle: projekt
+label: 'Relevante Publikationen'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,19 @@
+uuid: 89b8d5de-b6b1-4f87-b490-556774b06796
+langcode: de
+status: true
+dependencies:
+  module:
+    - address
+    - node
+id: node.field_fp_adresse
+field_name: field_fp_adresse
+entity_type: node
+type: address
+settings: {  }
+module: address
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

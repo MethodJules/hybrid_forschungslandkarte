@@ -1,0 +1,20 @@
+uuid: 92cdb3c2-4b40-4a27-b893-02e939ae5c7a
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_fp_organisationsart
+field_name: field_fp_organisationsart
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

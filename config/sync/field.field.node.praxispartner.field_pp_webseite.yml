@@ -1,0 +1,23 @@
+uuid: ed69670d-e69f-4f32-9180-7eb1c692fc95
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pp_webseite
+    - node.type.praxispartner
+  module:
+    - link
+id: node.praxispartner.field_pp_webseite
+field_name: field_pp_webseite
+entity_type: node
+bundle: praxispartner
+label: Webseite
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

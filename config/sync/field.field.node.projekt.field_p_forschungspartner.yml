@@ -1,0 +1,28 @@
+uuid: 94a5327f-bf09-4e60-903a-5ad2f21c286d
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_p_forschungspartner
+    - node.type.forschungspartner
+    - node.type.projekt
+id: node.projekt.field_p_forschungspartner
+field_name: field_p_forschungspartner
+entity_type: node
+bundle: projekt
+label: Forschungspartner
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      forschungspartner: forschungspartner
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

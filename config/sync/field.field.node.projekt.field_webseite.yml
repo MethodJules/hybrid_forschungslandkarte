@@ -1,0 +1,23 @@
+uuid: 2b22af62-f2d5-421b-a2f6-c20c02656ae4
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_webseite
+    - node.type.projekt
+  module:
+    - link
+id: node.projekt.field_webseite
+field_name: field_webseite
+entity_type: node
+bundle: projekt
+label: Webseite
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,22 @@
+uuid: 756bedc8-34de-4249-bb36-99424389874a
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.praxispartner
+  module:
+    - text
+id: node.praxispartner.body
+field_name: body
+entity_type: node
+bundle: praxispartner
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

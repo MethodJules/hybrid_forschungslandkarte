@@ -1,0 +1,22 @@
+uuid: 72e54819-7650-4b5c-848c-5682d8e2e816
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.projekt
+  module:
+    - text
+id: node.projekt.body
+field_name: body
+entity_type: node
+bundle: projekt
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

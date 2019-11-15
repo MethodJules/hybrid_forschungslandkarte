@@ -1,0 +1,14 @@
+uuid: 02126ff5-a6aa-43cf-9c39-a1b393cc1831
+name: 'Forschungslandkarte Hybride Wertschöpfung'
+mail: hoferj@uni-hildesheim.de
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: de
+default_langcode: de
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

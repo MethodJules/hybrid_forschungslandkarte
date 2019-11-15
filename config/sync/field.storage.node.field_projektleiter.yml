@@ -1,0 +1,21 @@
+uuid: 17cafc19-ca91-4c0d-8f4f-23031accb9ff
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_projektleiter
+field_name: field_projektleiter
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

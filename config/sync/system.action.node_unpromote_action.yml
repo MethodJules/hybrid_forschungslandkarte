@@ -1,0 +1,13 @@
+uuid: f2883bd5-df1b-414d-8afd-c5d273cc87f5
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
+id: node_unpromote_action
+label: 'Inhalt von der Startseite entfernen'
+type: node
+plugin: node_unpromote_action
+configuration: {  }

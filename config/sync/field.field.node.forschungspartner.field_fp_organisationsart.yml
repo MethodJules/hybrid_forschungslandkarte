@@ -1,0 +1,29 @@
+uuid: 7303412c-bc44-488e-b576-e1987c32d0a8
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fp_organisationsart
+    - node.type.forschungspartner
+    - taxonomy.vocabulary.organisationsart
+id: node.forschungspartner.field_fp_organisationsart
+field_name: field_fp_organisationsart
+entity_type: node
+bundle: forschungspartner
+label: Organisationsart
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      organisationsart: organisationsart
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

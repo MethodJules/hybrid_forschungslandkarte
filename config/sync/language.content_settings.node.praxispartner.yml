@@ -1,0 +1,11 @@
+uuid: b1396217-1487-4d4d-af7b-202379a3bde2
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.praxispartner
+id: node.praxispartner
+target_entity_type_id: node
+target_bundle: praxispartner
+default_langcode: site_default
+language_alterable: false

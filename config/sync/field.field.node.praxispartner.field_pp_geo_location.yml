@@ -1,0 +1,39 @@
+uuid: 07543ad8-8fc7-4c76-b224-356db3b0ac52
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pp_geo_location
+    - node.type.praxispartner
+  module:
+    - geocoder_field
+    - geofield
+third_party_settings:
+  geocoder_field:
+    method: source
+    weight: 0
+    geocode_field: field_pp_adresse
+    reverse_geocode_field: ''
+    hidden: false
+    disabled: false
+    plugins:
+      - openstreetmap
+    dumper: wkt
+    delta_handling: default
+    failure:
+      handling: preserve
+      status_message: true
+      log: true
+id: node.praxispartner.field_pp_geo_location
+field_name: field_pp_geo_location
+entity_type: node
+bundle: praxispartner
+label: Geo-Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  backend: geofield_backend_default
+field_type: geofield

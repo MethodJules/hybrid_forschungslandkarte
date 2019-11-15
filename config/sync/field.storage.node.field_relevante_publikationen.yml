@@ -1,0 +1,19 @@
+uuid: 386e5c32-0693-4d80-8f2c-38bfcfd5077a
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_relevante_publikationen
+field_name: field_relevante_publikationen
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

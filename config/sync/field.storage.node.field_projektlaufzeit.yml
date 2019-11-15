@@ -1,0 +1,20 @@
+uuid: dcc0a104-4af5-4b0e-a251-092cb40c7594
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_projektlaufzeit
+field_name: field_projektlaufzeit
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,31 @@
+uuid: a6495593-7a17-45cd-b01f-d396d5dd23cc
+langcode: de
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.forschungspartner.body
+    - node.type.forschungspartner
+  module:
+    - text
+    - user
+id: node.forschungspartner.teaser
+targetEntityType: node
+bundle: forschungspartner
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

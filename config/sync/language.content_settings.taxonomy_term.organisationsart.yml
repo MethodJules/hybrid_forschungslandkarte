@@ -1,0 +1,11 @@
+uuid: 3d3c8412-3fe2-4eba-add4-8980d1fd8934
+langcode: de
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisationsart
+id: taxonomy_term.organisationsart
+target_entity_type_id: taxonomy_term
+target_bundle: organisationsart
+default_langcode: site_default
+language_alterable: false

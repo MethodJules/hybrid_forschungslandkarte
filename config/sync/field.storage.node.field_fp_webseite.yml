@@ -1,0 +1,19 @@
+uuid: 4fefaaa7-ce80-4f3a-9530-4bff3d736d96
+langcode: de
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_fp_webseite
+field_name: field_fp_webseite
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

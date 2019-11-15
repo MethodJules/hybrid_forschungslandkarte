@@ -1,0 +1,22 @@
+uuid: 4c5c67ad-b0bf-4ba1-8596-aaae9a28282a
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.praxispartner
+id: node.praxispartner.promote
+field_name: promote
+entity_type: node
+bundle: praxispartner
+label: 'Auf der Startseite anzeigen'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: An
+  off_label: Aus
+field_type: boolean

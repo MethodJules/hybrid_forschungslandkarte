@@ -1,0 +1,11 @@
+uuid: 69a5ed56-3870-48d3-8889-77afe8bcde32
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.forschungspartner
+id: node.forschungspartner
+target_entity_type_id: node
+target_bundle: forschungspartner
+default_langcode: site_default
+language_alterable: false
