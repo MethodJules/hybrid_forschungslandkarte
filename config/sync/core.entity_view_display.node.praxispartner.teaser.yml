@@ -5,8 +5,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.praxispartner.body
+    - field.field.node.praxispartner.field_pp_adresse
+    - field.field.node.praxispartner.field_pp_geo_location
+    - field.field.node.praxispartner.field_pp_organisationsart
+    - field.field.node.praxispartner.field_pp_webseite
     - node.type.praxispartner
   module:
+    - link
     - text
     - user
 id: node.praxispartner.teaser
@@ -17,15 +22,30 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 2
     settings:
       trim_length: 600
     third_party_settings: {  }
     region: content
+  field_pp_webseite:
+    type: link
+    weight: 1
+    region: content
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
   links:
-    weight: 100
+    weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
+  field_pp_adresse: true
+  field_pp_geo_location: true
+  field_pp_organisationsart: true
   langcode: true

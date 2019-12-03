@@ -1,0 +1,29 @@
+uuid: 827bfe5d-916a-45cc-b18c-39153f53a11c
+langcode: de
+status: true
+dependencies:
+  config:
+    - views.view.forschungslandkarte
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: hervorgehobenesformularforschungslandkartepage_1
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'views_exposed_filter_block:forschungslandkarte-page_1'
+settings:
+  id: 'views_exposed_filter_block:forschungslandkarte-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: 'Forschungslandkarte Filter'
+visibility:
+  request_path:
+    id: request_path
+    pages: /forschungslandkarte
+    negate: false
+    context_mapping: {  }

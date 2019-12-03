@@ -7,10 +7,12 @@ dependencies:
     - field.field.node.forschungspartner.field_fp_adresse
     - field.field.node.forschungspartner.field_fp_organisationsart
     - field.field.node.forschungspartner.field_fp_webseite
+    - field.field.node.forschungspartner.field_pp_geo_location
     - field.field.node.forschungspartner.field_wp_geo_location
     - node.type.forschungspartner
   module:
     - address
+    - geofield
     - leaflet
     - link
     - text
@@ -53,6 +55,15 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
+  field_pp_geo_location:
+    weight: 106
+    label: above
+    settings:
+      output_format: wkt
+      output_escape: true
+    third_party_settings: {  }
+    type: geofield_default
     region: content
   field_wp_geo_location:
     weight: 104
